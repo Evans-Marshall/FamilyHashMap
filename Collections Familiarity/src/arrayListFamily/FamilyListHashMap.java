@@ -2,7 +2,7 @@ package arrayListFamily;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FamilyList {
+public class FamilyListHashMap {
     public static void main(String[] args) {
         
 
@@ -21,12 +21,9 @@ public class FamilyList {
         familyMap.put("Sixth Child", "Charly");
         familyMap.put("Seventh Child", "Benjamin");
         
-        
         for (String key: familyMap.keySet()) {
         	String value = familyMap.get(key);
             System.out.println(key + " is " + value);
         }
-    
-
 }
 }
